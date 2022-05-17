@@ -1,19 +1,19 @@
 public class Calc {
 
-    public int somar(int num1, int num2){
+    public float somar(float num1, float num2){
         return num1 + num2;
     }    
  
-    public void multiplicar(){
-        
+    public float multiplicar(float num1, float num2){
+        return num1 * num2;
     }  
 
-    public void subtrair(){
-        
+    public float subtrair(float num1, float num2){
+        return num1 - num2;
     }  
 
-    public void dividir(){
-        
+    public float dividir(float num1, float num2){
+        return num1 / num2;
     }
     
     /*public int raizQuadrada(int n) {
