@@ -24,7 +24,7 @@ Como operador de um aeroporto, há a necessidade de um sistema para armazenar os
 - Crie uma classe **FilaEspera** para representar a fila de espera do vôo.
   - é como na vida real, numa fila vc tem a pessoa da frente que é a próxima em relação à você.
     >   **Ex.:** `<-inicio<-[1]<-[2]<-[3]<-fim`
-- Em vez de ler e imprimir usando o Scanner e o console, para esse exercício, será usado a classe JOptionPane:
+- Em vez de ler e imprimir usando o `Scanner` e o `console`, para esse exercício, será usado a classe `JOptionPane`:
   - Para ler: `String entrada = JOptionPane.showInputDialog(null, "Texto");`
   - Para imprimir: `JOptionPane.showMessageDialog(null, "Texto que será apresentado na janela");`
 - Em resumo, o sistema deverá ter, a princípio, essas opções:
