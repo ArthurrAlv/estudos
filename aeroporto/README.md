@@ -19,7 +19,7 @@ Como operador de um aeroporto, há a necessidade de um sistema para armazenar os
   - Para ler: `String entrada = JOptionPane.showInputDialog(null, "Texto");`
   - Para imprimir: `JOptionPane.showMessageDialog(null, "Texto que será apresentado na janela");`
 - Em resumo, o sistema deverá ter, a princípio, essas opções:
-  1) Novo Passageiro
-  2) Desistência
-  3) Detalhar Vôo
-  0) Sair
+  - 1 - Novo Passageiro
+  - 2 - Desistência
+  - 3 - Detalhar Vôo
+  - 0 - Sair
