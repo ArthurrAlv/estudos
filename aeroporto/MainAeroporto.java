@@ -11,7 +11,7 @@
  *
  * Observações:
  * 
- * - Crie uma classe "Voo" que irá manter os clientes do vôo e terá também a fila de espera.
+ * - Crie uma classe "Voo" que irá manter os clientes do vôo (como um vetor) e terá também a fila de espera.
  * - Crie uma classe "Cliente" para representar os dados do mesmo (nome e cpf - ambos como String).
  * - Crie uma classe "FilaEspera" para representar a fila de espera do vôo.
  *   - é como na vida real, numa fila vc tem a pessoa da frente que é a próxima em relação à vc
