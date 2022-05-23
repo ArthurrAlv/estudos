@@ -6,8 +6,17 @@ Como operador de um aeroporto, há a necessidade de um sistema para armazenar os
 
 - Permita o cadastro de clientes armazenando o nome e cpf de cada um. Sistema não deve permitir cadastrar mais de um cliente com o mesmo CPF.
 - Caso o limite de clientes por vôo seja atingido, o sistema irá incluir o cliente numa fila de espera, para poder ingressar no vôo caso algum outro cliente desista de viajar.
-- Permita que seja possível aplicar a desistência de um cliente do vôo e, caso haja algum cliente na fila de espera, automaticamente já o inclua no vôo após a desistência. A desistência deverá * ser através do CPF do cliente.
-- Permita a visualização dos clientes do vôo assim como os que estão na fila de espera.
+- Permita que seja possível aplicar a desistência de um cliente do vôo e, caso haja algum cliente na fila de espera, automaticamente já o inclua no vôo após a desistência. A desistência deverá ser através do CPF do cliente.
+- Permita a visualização dos clientes do vôo assim como os que estão na fila de espera, assim:
+  ```
+  === Passageiros ===
+  - Nome do cliente (CPF)
+  - Fulano (123)
+  - Ciclano (456)
+  
+  === Fila de espera ===
+  - Beltrano (789)
+  ```
 
 ### Observações:
 - Crie uma classe **Voo** que irá manter os clientes do vôo (use um vetor) e terá também a fila de espera.
